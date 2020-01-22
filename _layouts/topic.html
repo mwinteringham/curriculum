@@ -5,6 +5,7 @@ layout: default
 <h2>Topic: {{ page.name }}</h2>
 
 <h3>Knowledge</h3>
+<p>What you need to know</p>
 <ul id="knowledge">
     {% for entry in page.knowledge %}
         <li>{{ entry }}</li>
@@ -12,6 +13,7 @@ layout: default
 </ul>
 
 <h3>Skills</h3>
+<p>What you need to do</p>
 <ul id="skills">
     {% for entry in page.skills %}
         <li>{{ entry }}</li>
@@ -19,6 +21,7 @@ layout: default
 </ul>
 
 <h3>Resources</h3>
+<p>What you will work with</p>
 <ul id="resources">
     {% for entry in page.resources %}
         <li>{{ entry }}</li>
@@ -26,6 +29,7 @@ layout: default
 </ul>
 
 <h3>Learning outcomes</h3>
+<p>After studying {{page.name}} you will be able to:</p>
 <ul id="outcomes">
     {% for entry in page.outcomes %}
         <li>{{ entry }}</li>
