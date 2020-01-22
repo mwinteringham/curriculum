@@ -16,11 +16,16 @@
 title: MoT Curriculum
 description: >- # this means to ignore newlines until "baseurl:"
   A site to demonstrate the MoT Curriculum
-baseurl: "/curriculum.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mwtestconsultancy.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+
+collections:
+  topics:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

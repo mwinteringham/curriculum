@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h2>Topic: {{ page.name }}</h2>
+
+<h3>Knowledge</h3>
+<ul id="knowledge">
+    {% for entry in page.knowledge %}
+        <li>{{ entry }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Skills</h3>
+<ul id="skills">
+    {% for entry in page.skills %}
+        <li>{{ entry }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Resources</h3>
+<ul id="resources">
+    {% for entry in page.resources %}
+        <li>{{ entry }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Learning outcomes</h3>
+<ul id="outcomes">
+    {% for entry in page.outcomes %}
+        <li>{{ entry }}</li>
+    {% endfor %}
+</ul>

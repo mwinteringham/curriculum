@@ -1,6 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
 ---
+
+<h2>Topics here</h2>
+
+{% for topic in site.topics %}
+  <p><a href="{{topic.url}}">{{ topic.name}}</a></p>
+{% endfor %}
