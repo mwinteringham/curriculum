@@ -1,5 +1,5 @@
 ---
-name: Process
+name: 15 - Process
 knowledge:
 - Waterfall
 - V-Model
@@ -24,9 +24,9 @@ skills:
 resources:
 - None
 outcomes:
-- Define what a Software Development life cycle is
-- Illustrate common Software Development life cycles
-- Summarise common activities that take place within Software Development life cycles
+- CUR15.1 - Define what a Software Development life cycle is
+- CUR15.2 - Illustrate common Software Development life cycles
+- CUR15.3 - Summarise common activities that take place within Software Development life cycles
 
 layout: topic
 ---
